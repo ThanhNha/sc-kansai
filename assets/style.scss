@@ -1,0 +1,61 @@
+@import "variables";
+header {
+  .bg-banner {
+    width: 100%;
+    height: 200px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+main {
+  position: relative;
+}
+#sidebar {
+  //   max-width: 300px;
+  //   width: 30%;
+  position: sticky;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  background: $white;
+  .wrapper-menu {
+    .item-menu {
+      &:hover {
+        .menu-active {
+          display: block;
+        }
+        .menu-desktop {
+          display: none;
+        }
+      }
+      .menu-active {
+        display: none;
+      }
+      a {
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+    .item-menu.active {
+      .menu-active {
+        display: block;
+      }
+    }
+  }
+}
+#main-content-1 {
+  //   padding-left: 300px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

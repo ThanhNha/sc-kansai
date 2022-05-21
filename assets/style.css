@@ -1,0 +1,58 @@
+@charset "UTF-8";
+body {
+  font-family: "ＭＳ Ｐゴシック", "Osaka";
+  font-size: 10px;
+  color: #666666;
+  background-position: 0px 0px;
+  margin: 0px;
+  padding: 0px;
+  background-repeat: repeat;
+}
+
+header .bg-banner {
+  width: 100%;
+  height: 200px;
+}
+header .bg-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+main {
+  position: relative;
+}
+
+#sidebar {
+  position: sticky;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  background: #ffffff;
+}
+#sidebar .wrapper-menu .item-menu:hover .menu-active {
+  display: block;
+}
+#sidebar .wrapper-menu .item-menu:hover .menu-desktop {
+  display: none;
+}
+#sidebar .wrapper-menu .item-menu .menu-active {
+  display: none;
+}
+#sidebar .wrapper-menu .item-menu a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#sidebar .wrapper-menu .item-menu.active .menu-active {
+  display: block;
+}
+
+#main-content-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
